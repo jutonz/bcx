@@ -20,6 +20,7 @@ module Bcx
       resource :projects, class_name: 'Bcx::Resources::Project'
       resource :todolists, class_name: 'Bcx::Resources::Todolist'
       resource :people, class_name: 'Bcx::Resources::Person'
+      resource :documents, class_name: 'Bcx::Resources::Document'
 
       def initialize(options = {})
         @account = Bcx.configuration.account
